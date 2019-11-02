@@ -1,0 +1,6 @@
+framework module Pods_sopkathon_iOS {
+  umbrella header "Pods-sopkathon_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
