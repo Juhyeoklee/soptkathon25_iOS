@@ -25,6 +25,8 @@
 		F4EF8892236DC9900068A504 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF8891236DC9900068A504 /* UIImageView+Extensions.swift */; };
 		F4EF8894236DC9D00068A504 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF8893236DC9D00068A504 /* NetworkResult.swift */; };
 		F4EF8896236DCE830068A504 /* Jaeeun.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EF8895236DCE820068A504 /* Jaeeun.storyboard */; };
+		F4EF88C2236E0EC60068A504 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EF88C1236E0EC60068A504 /* Quiz.storyboard */; };
+		F4EF88C4236E0EEA0068A504 /* quizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF88C3236E0EEA0068A504 /* quizVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		F4EF8891236DC9900068A504 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		F4EF8893236DC9D00068A504 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		F4EF8895236DCE820068A504 /* Jaeeun.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jaeeun.storyboard; sourceTree = "<group>"; };
+		F4EF88C1236E0EC60068A504 /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
+		F4EF88C3236E0EEA0068A504 /* quizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizVC.swift; sourceTree = "<group>"; };
 		F879AEE3A338AF1BAC97F7AB /* Pods_sopkathon_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sopkathon_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +141,7 @@
 				F4EF8874236DB2580068A504 /* ViewController.swift */,
 				A65ABDAF236DF3070026DDF8 /* MainVC.swift */,
 				7FCBD04A236E0BB0003AC8A8 /* RankingVC.swift */,
+				F4EF88C3236E0EEA0068A504 /* quizVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				7F0BB8CB236DCE8500F7B3CF /* JuHyeokStoryboard.storyboard */,
 				F4EF8895236DCE820068A504 /* Jaeeun.storyboard */,
 				7FCBD048236E0146003AC8A8 /* Ranking.storyboard */,
+				F4EF88C1236E0EC60068A504 /* Quiz.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 				7FCBD049236E0146003AC8A8 /* Ranking.storyboard in Resources */,
 				A65ABDAC236DCE900026DDF8 /* TAEJIN.storyboard in Resources */,
 				7F0BB8CC236DCE8500F7B3CF /* JuHyeokStoryboard.storyboard in Resources */,
+				F4EF88C2236E0EC60068A504 /* Quiz.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +309,7 @@
 				F4EF8875236DB2580068A504 /* ViewController.swift in Sources */,
 				A65ABDB0236DF3070026DDF8 /* MainVC.swift in Sources */,
 				F4EF8892236DC9900068A504 /* UIImageView+Extensions.swift in Sources */,
+				F4EF88C4236E0EEA0068A504 /* quizVC.swift in Sources */,
 				7FCBD04B236E0BB0003AC8A8 /* RankingVC.swift in Sources */,
 				F4EF8890236DC9630068A504 /* UIColor+Extensions.swift in Sources */,
 				F4EF8871236DB2580068A504 /* AppDelegate.swift in Sources */,
