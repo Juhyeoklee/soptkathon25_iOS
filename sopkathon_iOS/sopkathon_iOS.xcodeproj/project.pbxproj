@@ -13,6 +13,7 @@
 		7FCBD04F236E1718003AC8A8 /* RankingCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBD04E236E1718003AC8A8 /* RankingCVC.swift */; };
 		A65ABDAC236DCE900026DDF8 /* TAEJIN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65ABDAB236DCE900026DDF8 /* TAEJIN.storyboard */; };
 		A65ABDB0236DF3070026DDF8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65ABDAF236DF3070026DDF8 /* MainVC.swift */; };
+		A673F652236E1D7100533BBE /* RankingCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A673F651236E1D7100533BBE /* RankingCVC.swift */; };
 		EB98A7D46F07498BD6D81C06 /* Pods_sopkathon_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F879AEE3A338AF1BAC97F7AB /* Pods_sopkathon_iOS.framework */; };
 		F4EF8871236DB2580068A504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF8870236DB2580068A504 /* AppDelegate.swift */; };
 		F4EF8873236DB2580068A504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF8872236DB2580068A504 /* SceneDelegate.swift */; };
@@ -38,6 +39,7 @@
 		7FCBD04E236E1718003AC8A8 /* RankingCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingCVC.swift; sourceTree = "<group>"; };
 		A65ABDAB236DCE900026DDF8 /* TAEJIN.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TAEJIN.storyboard; sourceTree = "<group>"; };
 		A65ABDAF236DF3070026DDF8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A673F651236E1D7100533BBE /* RankingCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingCVC.swift; sourceTree = "<group>"; };
 		E5AFCC5E5298CCAF4C18A7B0 /* Pods-sopkathon_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sopkathon_iOS.release.xcconfig"; path = "Target Support Files/Pods-sopkathon_iOS/Pods-sopkathon_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		F4EF886D236DB2580068A504 /* sopkathon_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sopkathon_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EF8870236DB2580068A504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A673F650236E1CFD00533BBE /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBD04E236E1718003AC8A8 /* RankingCVC.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		F4EF8864236DB2580068A504 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 				F4EF886E236DB2580068A504 /* Products */,
 				6A1CBA5C231FB23A37C96E50 /* Pods */,
 				73D6EAC89821C894F1F91515 /* Frameworks */,
+				A673F650236E1CFD00533BBE /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +151,7 @@
 		F4EF8886236DC89F0068A504 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A673F651236E1D7100533BBE /* RankingCVC.swift */,
 				F4EF8874236DB2580068A504 /* ViewController.swift */,
 				A65ABDAF236DF3070026DDF8 /* MainVC.swift */,
 				7FCBD04A236E0BB0003AC8A8 /* RankingVC.swift */,
@@ -312,6 +324,7 @@
 				A65ABDB0236DF3070026DDF8 /* MainVC.swift in Sources */,
 				F4EF8892236DC9900068A504 /* UIImageView+Extensions.swift in Sources */,
 				F4EF88C4236E0EEA0068A504 /* quizVC.swift in Sources */,
+				A673F652236E1D7100533BBE /* RankingCVC.swift in Sources */,
 				7FCBD04B236E0BB0003AC8A8 /* RankingVC.swift in Sources */,
 				F4EF8890236DC9630068A504 /* UIColor+Extensions.swift in Sources */,
 				F4EF8871236DB2580068A504 /* AppDelegate.swift in Sources */,
