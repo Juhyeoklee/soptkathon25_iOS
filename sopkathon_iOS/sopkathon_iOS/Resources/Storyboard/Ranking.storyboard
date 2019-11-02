@@ -105,7 +105,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="GwR-C3-YiH">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RankCell" id="GwR-C3-YiH" customClass="RankingCVC" customModule="sopkathon_iOS" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="301" height="66"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="m7J-pu-fsW">
@@ -183,6 +183,13 @@
                                             </subviews>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="301" height="66"/>
+                                        <connections>
+                                            <outlet property="candyCountImg" destination="ACq-2k-OPq" id="9Sd-P3-Qs6"/>
+                                            <outlet property="candyCountLbl" destination="E02-xj-viv" id="IWn-cC-SeI"/>
+                                            <outlet property="rankImg" destination="JXY-WA-fbi" id="ExD-TJ-lfj"/>
+                                            <outlet property="rankLbl" destination="SZu-iz-3qG" id="DSg-CQ-YCV"/>
+                                            <outlet property="userNameLbl" destination="Ujk-mr-gzG" id="GW1-a9-F0i"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
