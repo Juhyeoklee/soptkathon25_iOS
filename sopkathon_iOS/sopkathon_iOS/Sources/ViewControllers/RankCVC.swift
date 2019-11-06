@@ -14,5 +14,7 @@ class RankCVC: UICollectionViewCell {
     @IBOutlet var rankImg: UIImageView!
     
     @IBOutlet var rankLbl: UILabel!
+    @IBOutlet var candyCountLbl: UILabel!
+    @IBOutlet var userNameLbl: UILabel!
     
 }

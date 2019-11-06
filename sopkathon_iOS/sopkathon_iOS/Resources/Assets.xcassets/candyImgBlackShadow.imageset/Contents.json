@@ -2,17 +2,17 @@
   "images" : [
     {
       "scale" : "1x",
-      "idiom" : "universal",
-      "filename" : "rankImage.png"
+      "filename" : "candyImgBlackShadow.png",
+      "idiom" : "universal"
     },
     {
       "idiom" : "universal",
-      "filename" : "rankImage@2x.png",
+      "filename" : "candyImgBlackShadow@2x.png",
       "scale" : "2x"
     },
     {
+      "filename" : "candyImgBlackShadow@3x.png",
       "idiom" : "universal",
-      "filename" : "rankImage@3x.png",
       "scale" : "3x"
     }
   ],

@@ -9,13 +9,31 @@
 import UIKit
 
 class RankVC: UIViewController {
+    var userName: String?
+    @IBOutlet var userNameLbl: UILabel!
+    
+    var rankList: [UserData] = [UserData(user: "주혁",candyCount: 10),
+                                UserData(user: "가인",candyCount: 9),
+                                UserData(user: "미정",candyCount: 8),
+                                UserData(user: "진오",candyCount: 7),
+                                UserData(user: "이시연",candyCount: 6),
+                                UserData(user: "재은",candyCount: 5),
+                                UserData(user: "양시연", candyCount: 4),
+                                UserData(user: "태진",candyCount: 3),
+                                UserData(user: "수민",candyCount: 2)]
     
     override func viewDidLoad() {
+        
+        userNameLbl.text = userName!
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func dismiss(){
+        
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
@@ -35,22 +53,23 @@ extension RankVC: UICollectionViewDataSource{
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return self.rankList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let rankCell = collectionView.dequeueReusableCell(withReuseIdentifier: "RankCell", for: indexPath) as! RankCVC
-        print(indexPath.item)
         
-        rankCell.rankBgImg.image = UIImage(named: "rankBlackBtn")
-        rankCell.rankLbl.text = String(indexPath.item)
+        rankCell.rankLbl.text = String(indexPath.item + 1)
+        rankCell.userNameLbl.text = rankList[indexPath.item].user
+        rankCell.candyCountLbl.text = String(rankList[indexPath.item].candyCount)
+        
+        if self.userName == rankList[indexPath.item].user {
+            rankCell.rankBgImg.image = UIImage(named: "rankBtn")
+        }
         
         return rankCell
     }
     
 }
 
-extension RankVC: UICollectionViewDelegate{
-    
-}

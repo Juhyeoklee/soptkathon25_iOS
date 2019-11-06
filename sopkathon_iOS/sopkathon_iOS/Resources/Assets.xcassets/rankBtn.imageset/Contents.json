@@ -1,17 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "rankBtn.png",
       "scale" : "1x",
-      "filename" : "line.png",
       "idiom" : "universal"
     },
     {
       "idiom" : "universal",
-      "filename" : "line@2x.png",
+      "filename" : "rankBtn@2x.png",
       "scale" : "2x"
     },
     {
-      "filename" : "line@3x.png",
+      "filename" : "rankBtn@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

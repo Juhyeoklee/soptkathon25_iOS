@@ -15,6 +15,8 @@ class MainVC: UIViewController {
     @IBOutlet weak var user_Rank: UILabel!
     @IBOutlet weak var user_Num: UILabel!
     
+    @IBOutlet var rankBtn: UIButton!
+    var userName: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,5 +34,18 @@ class MainVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func rankBtnClick(_ sender: Any) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Ranking", bundle: Bundle.main)
+        if let rank = storyboard.instantiateViewController(identifier: "RankVC") as? RankVC {
+            rank.userName = self.userName
+            self.present(rank, animated: true)
+        }
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! RankVC
+        vc.userNameLbl.text = userName
+    }
+    
 }
